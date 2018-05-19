@@ -1,0 +1,28 @@
+{
+    "name": "sonata-project/media-orm-pack",
+    "type": "symfony-pack",
+    "description": "A pack for SonataMediaBundle with ORM support",
+    "keywords": [
+        "media",
+        "sonata",
+        "orm"
+    ],
+    "homepage": "https://sonata-project.org/bundles/media",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Rabaix",
+            "email": "thomas.rabaix@sonata-project.org",
+            "homepage": "https://sonata-project.org"
+        },
+        {
+            "name": "Sonata Community",
+            "homepage": "https://github.com/sonata-project/media-orm-pack/contributors"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "sonata-project/doctrine-orm-admin-bundle": "^3.0",
+        "sonata-project/media-bundle": "^3.13"
+    }
+}
